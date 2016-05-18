@@ -14,7 +14,7 @@
   <compatibility>
     <ver>4.6</ver>
   </compatibility>
-  <comments></comments>
+  <comments>Code is on https://github.com/systopia/be.aivl.sepacustom</comments>
   <civix>
     <namespace>CRM/Sepacustom</namespace>
   </civix>
