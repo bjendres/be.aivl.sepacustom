@@ -15,6 +15,9 @@ ooff1.insertAfter(ooff1.parent().last());
 // also add gray background
 ooff1.css('background-color','lightgray');
 
+// preselect 'Recurrente Gift' [3]
+cj("select[name=financial_type_id]").val(3);
+
 // move the table into the div above, so the theme would apply
 var table = cj("input[name=total_amount]").closest("table");
 cj("#be_aivl_sepacustom_formfix").insertAfter(table);
