@@ -7,8 +7,8 @@
 cj("#mtype_RCUR").click();
 
 // move OOFF section below RCUR
-var ooff1  = cj("#mtype_OOFF").closest("tr");
-var ooff2 = ooff1.next();
+let ooff1  = cj("#mtype_OOFF").closest("tr");
+let ooff2 = ooff1.next();
 ooff2.insertAfter(ooff1.parent().last());
 ooff1.insertAfter(ooff1.parent().last());
 
@@ -19,7 +19,7 @@ ooff1.css('background-color','lightgray');
 cj("select[name=financial_type_id]").val(3);
 
 // move the table into the div above, so the theme would apply
-var table = cj("input[name=total_amount]").closest("table");
+let table = cj("input[name=total_amount]").closest("table");
 cj("#be_aivl_sepacustom_formfix").insertAfter(table);
 cj("#be_aivl_sepacustom_formfix").append(table);
 
